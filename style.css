@@ -1,0 +1,78 @@
+@import url("https://fonts.googleapis.com/css2?family=Figtree:wght@500;800&display=swap");
+
+:root {
+  --Yellow: hsl(47, 88%, 63%);
+  --White: hsl(0, 0%, 100%);
+  --Gray-500: hsl(0, 0%, 42%);
+  --Gray-950: hsl(0, 0%, 7%);
+}
+
+body {
+  font-family: "Figtree", sans-serif;
+  font-size: 16px;
+  display: flex;
+  justify-content: center; /* Центрирует по горизонтали */
+  align-items: center; /* Центрирует по вертикали */
+  min-height: 100vh;
+  margin: 0;
+  background-color: var(--Yellow);
+}
+
+.card {
+  width: 320px;
+  background: white;
+  padding: 20px;
+  border-radius: 15px;
+  position: relative;
+  box-shadow: 8px 8px 0px black; /* Черная тень */
+  border: 2px solid black; /* Черная рамка */
+}
+
+.card img {
+  display: block;
+  max-width: 100%;
+  height: auto;
+  margin-bottom: 20px;
+  border-radius: 10px;
+}
+
+h3 {
+  background-color: var(--Yellow);
+  display: inline;
+  padding: 5px 10px 5px 10px;
+  border-radius: 10%;
+}
+
+h2 {
+  font-size: 1.5rem;
+}
+
+.description {
+  color: var(--Gray-500);
+  line-height: 1.5;
+  font-size: 1rem;
+}
+
+.author {
+  display: flex;
+  align-items: center;
+}
+
+.author img {
+  width: 32px;
+  margin: 0 8px 0 0;
+  padding: 0;
+}
+
+.author p {
+  font-weight: 700;
+}
+
+@media (max-width: 400px) {
+  .card {
+    width: 75%; /* Уменьшаем ширину карточки */
+  }
+  .description {
+    font-size: 0.8rem;
+  }
+}

@@ -21,11 +21,11 @@ body {
 .card {
   width: 320px;
   background: white;
-  padding: 20px;
+  padding: 16px;
   border-radius: 15px;
   position: relative;
   box-shadow: 8px 8px 0px black; /* Черная тень */
-  border: 2px solid black; /* Черная рамка */
+  border: 3px solid black; /* Черная рамка */
 }
 
 .card img {
@@ -36,11 +36,12 @@ body {
   border-radius: 10px;
 }
 
-h3 {
+h4 {
   background-color: var(--Yellow);
   display: inline;
   padding: 5px 10px 5px 10px;
   border-radius: 10%;
+  font-weight: 800;
 }
 
 h1 {

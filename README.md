@@ -1,1 +1,1 @@
-Some easy stuff
+Frontend Mentor | Blog preview card
